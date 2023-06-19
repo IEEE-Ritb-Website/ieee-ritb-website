@@ -46,7 +46,7 @@ export default function Home() {
     <Member name="Prajana B" 
                 designation="Vice-Chair" 
                 link="https://www.linkedin.com/in/prajana-b-47b3b0279"
-                image="https://drive.google.com/uc?id=1d5PfhjARzK15sQ_wlds9_YgNBroYziRD&export=view">
+                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
     </Member>
     
     <Member name="Neha Kantikar" 
@@ -67,11 +67,6 @@ export default function Home() {
                 image="https://drive.google.com/uc?id=1d9JfiD58rPgdx07F6EaqY9G18mMtLyon&export=view">
     </Member>
     
-    <Member name="None" 
-                designation="None" 
-                link="None"
-                image="None">
-    </Member>
     </div></p>
 
 

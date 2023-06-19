@@ -39,7 +39,7 @@ export default function Home() {
     <Member name="Anagha Kalyani" 
                 designation="Chair" 
                 link="https://www.linkedin.com/in/anagha-kalyani-b294b8210"
-                image="https://drive.google.com/uc?id=1OpgR36UfgTYTzn__kjEIkGzoU2Nw7ieG&export=view">
+                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
     </Member>
     
     <Member name="Diya James" 
@@ -63,7 +63,7 @@ export default function Home() {
     <Member name="Snehal Vats" 
                 designation="Member" 
                 link="https://www.linkedin.com/in/snehal-vats-77652a1b9"
-                image="https://drive.google.com/uc?id=1OpgR36UfgTYTzn__kjEIkGzoU2Nw7ieG&export=view">
+                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
     </Member>
     
     <Member name="Joshitha Darsi" 
@@ -93,7 +93,7 @@ export default function Home() {
     <Member name="Aditi Kataria" 
                 designation="Member" 
                 link="https://www.linkedin.com/in/aditi-kataria-9502b3279"
-                image="https://drive.google.com/uc?id=1OpgR36UfgTYTzn__kjEIkGzoU2Nw7ieG&export=view">
+                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
     </Member>
     
     <Member name="Harini N" 

@@ -71,7 +71,7 @@ export default function Home() {
     <Member name="Nirmitha S Reddy" 
                 designation="Member" 
                 link="https://www.linkedin.com/in/nirmitha-s-reddy-a5714a234"
-                image="https://drive.google.com/uc?id=1xZ7PT2KJSswCq9X-PAHZb3wyQtoj4kMY&export=view">
+                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
     </Member>
     
     <Member name="Chinmay Gowda" 

@@ -57,7 +57,7 @@ export default function Home() {
     <Member name="Varsha J" 
                 designation="Secretary" 
                 link="https://www.linkedin.com/in/varsha-j-173124254"
-                image="https://drive.google.com/uc?id=19TsuI_Dud9wXH_lEi68jumWEdWN3eRfs&export=view">
+                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
     </Member>
     
     <Member name="Vyoma Bharadwaj" 

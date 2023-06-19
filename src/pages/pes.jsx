@@ -94,7 +94,7 @@ export default function Home() {
     <Member name="Nidhi Nilesh Naik" 
                 designation="Member" 
                 link="https://www.linkedin.com/in/nidhi-naik-8309aa237"
-                image="https://drive.google.com/uc?id=1-5pcYWQRLsTxLRO7XHurXMWn293b_ZRf&export=view">
+                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
     </Member>
     
     <Member name="Bhavesh" 
@@ -148,7 +148,7 @@ export default function Home() {
     <Member name="Manjunath" 
                 designation="Member" 
                 link="https://www.linkedin.com/in/manjunath-gandigudi-6717a41b5"
-                image="https://drive.google.com/uc?id=1n8viD6fPZoRQPw3OR8MuIwWqR-_lBr9M&export=view">
+                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
     </Member>
 
     </div>
