@@ -168,7 +168,7 @@ export default function Home() {
     <Member name="Sarvani" 
                 designation="Member" 
                 link="https://www.linkedin.com/in/mogallapalli-naga-sarvani-4b5238279/"
-                image="https://drive.google.com/uc?id=1Jw2SQYIFTWNc5qhrJdmFIlLsiysABH7y&export=view">
+                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
     </Member>
     </div></p>
 

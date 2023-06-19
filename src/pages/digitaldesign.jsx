@@ -101,7 +101,7 @@ The best designs will be rewarded.
     <Member name="Ayush Jain" 
                 designation="Member" 
                 link="https://www.linkedin.com/in/ayush---jain"
-                image="https://drive.google.com/uc?id=1AH1RFug2NIkK82PQVcIm_QvmEzVwc5iY&export=download">
+                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
     </Member>
     
     <Member name="Abhishek K" 
@@ -137,7 +137,7 @@ The best designs will be rewarded.
     <Member name="Rajat Tripathi" 
                 designation="Member" 
                 link="https://www.linkedin.com/in/rajat-tripathi-173234248"
-                image="https://drive.google.com/uc?id=1AH1RFug2NIkK82PQVcIm_QvmEzVwc5iY&export=download">
+                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
     </Member>
     </div></p>
 

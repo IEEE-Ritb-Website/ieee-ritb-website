@@ -236,7 +236,7 @@ export default function Home() {
     <Member name="Abhinav Benagi" 
                 designation="Chair" 
                 link="https://www.linkedin.com/in/abhinav-benagi-878aa7208"
-                image="https://drive.google.com/uc?id=1DDrxS9zGUXCrwOMQdIsKY3BjdVWkzA02&export=view">
+                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
     </Member>
     
     <Member name="Pavan Kumar K" 
@@ -290,7 +290,7 @@ export default function Home() {
     <Member name="Sharu U" 
                 designation="Member" 
                 link="https://www.linkedin.com/in/shaaru-u-514976227"
-                image="https://drive.google.com/uc?id=1DDrxS9zGUXCrwOMQdIsKY3BjdVWkzA02&export=view">
+                image="https://i.ibb.co/m8zY1VP/unknown.jpg">
     </Member>
     
     <Member name="Hemanth Kumar NVS" 

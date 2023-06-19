@@ -1,10 +1,13 @@
+import Image from 'next/image'
+
+
 export const Member = (props) => {
     return (
             <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl ">
                 <img
                     className="object-cover w-full h-56 md:h-64 xl:h-80"
                     src={props.image}
-                    alt="Person" />
+                    alt="Member" />
                 <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                     <p className="mb-1 text-lg font-bold text-gray-100">
                         {props.name}
@@ -19,7 +22,7 @@ export const Member = (props) => {
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                class="h-5 w-5"
+                                className="h-5 w-5"
                                 fill="currentColor"
                                 viewBox="0 0 24 24">
                                 <path
