@@ -3,7 +3,24 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+
 import {Member} from '@/components/Member'
+
+import img1 from '@/images/heroimages/img1.png'
+import img2 from '@/images/heroimages/img1.png'
+import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
+import Image from 'next/image'
+import { Swiper, SwiperSlide } from 'swiper/react'
+
+const images = [
+  {
+    link: img1,
+  },
+  {
+    link: img2,
+  },
+]
+
 
 export default function Home() {
   return (
@@ -23,7 +40,39 @@ export default function Home() {
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 IEEE APS CHAPTER
               </h1>
+              <Swiper
+        spaceBetween={30}
+        effect={'fade'}
+        loop={true}
+        autoHeight={true}
+        centeredSlides={true}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation, EffectFade]}
+        className="mySwiper"
+      >
+        {images.map((image, index) => (
+          <SwiperSlide key={index}>
+            <Image
+              className="lg:h-128 h-96 w-full object-fill"
+              src={image.link}
+              alt={index}
+              width={1745}
+              height={636}
+              objectFit="cover"
+              border-radius="10px"
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
               <div>
+
                 <h1 className="mt-10 text-justify text-2xl tracking-tight text-gray-900">
                   Welcome to the IEEE Antennas and Propagation Society (APS)
                   Student Chapter at RIT. We are a dynamic community of
@@ -89,6 +138,7 @@ export default function Home() {
                 image="https://drive.google.com/uc?id=1bMUfnLGZK07XeXVVeaeGSutxpSgVOmQt&export=view">
     </Member>
     </div></p>
+
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

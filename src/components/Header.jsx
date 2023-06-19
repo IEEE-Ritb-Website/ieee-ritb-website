@@ -112,6 +112,13 @@ export function Header() {
                 </a>
               </Link>
             </li>
+            <li className="ml-12 mt-4 hidden md:block">
+              <Link href="/comsoc">
+                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                  <b>COMSOC</b>
+                </a>
+              </Link>
+            </li>
             <li className="ml-6 mt-4 hidden md:block">
               <Link href="/contactus">
                 <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">

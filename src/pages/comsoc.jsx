@@ -120,6 +120,7 @@ export default function Home() {
               </h1>
                 
                 <p className="mt-6 text-base text-gray-600">
+
                 <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
                 
 
@@ -177,16 +178,9 @@ export default function Home() {
                 </Member>
                   
                 </div>
-                  
+
                 </p>
                 
-              {/* <div className="mt-10 flex items-center">
-                <iframe
-                  className="w-full"
-                  height={1080}
-                  src="https://docs.google.com/document/d/e/2PACX-1vTynj0Vv6kt0GLOBjuulOJnsyh2yEXtifc26SijHMl7W5DWaejn-7SfpzI9nJoQUg/pub?embedded=true"
-                ></iframe>
-              </div> */}
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#"

@@ -3,7 +3,23 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+
 import {Member} from '@/components/Member'
+
+import img1 from '@/images/WIE/Picture1.jpg'
+import img2 from '@/images/WIE/Picture2.png'
+import img3 from '@/images/WIE/Picture3.png'
+import img4 from '@/images/WIE/Picture4.png'
+import img6 from '@/images/WIE/Picture6.png'
+import img7 from '@/images/WIE/Picture7.png'
+import img8 from '@/images/WIE/Picture8.png'
+
+import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
+import Image from 'next/image'
+import { Swiper, SwiperSlide } from 'swiper/react'
+
+const images = [img1, img2,img3,img4,img6,img7,img8]
+
 
 export default function Home() {
     return (
@@ -23,6 +39,39 @@ export default function Home() {
                             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                                 IEEE WIE CHAPTER
                             </h1>
+
+                            <Swiper
+                spaceBetween={30}
+                effect={'fade'}
+                loop={true}
+                autoHeight={true}
+                centeredSlides={true}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
+                pagination={{
+                  clickable: true,
+                }}
+                navigation={true}
+                modules={[Autoplay, Pagination, Navigation, EffectFade]}
+                className="mySwiper"
+              >
+                {images.map((image, index) => (
+                  <SwiperSlide key={index}>
+                    <Image
+                      className="lg:h-128 h-96 w-full object-fill"
+                      src={image}
+                      alt={index}
+                      width={1745}
+                      height={800}
+                      objectFit="cover"
+                      border-radius="10px"
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+
                             <div>
                                 <h1 className="mt-10 text-justify text-2xl tracking-tight text-gray-900">
                                     IEEE RIT-B Women in Engineering (IEEE RIT-B WIE) is a local chapter of IEEE RIT-B that was established in 2016. Our primary objective is to empower and engage women in the technical field by organizing a variety of webinars, workshops, events, and panel discussions. Through these activities, we strive to enhance their knowledge, showcase their technical skills, and foster their professional growth.
@@ -30,6 +79,7 @@ export default function Home() {
 
                                 </h1>
                             </div>
+
                             <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
                 Members
               </h1>
@@ -109,6 +159,7 @@ export default function Home() {
     </Member>
     </div></p>
 
+
                             <div className="mt-10 flex items-center justify-center gap-x-6">
                                 <a
                                     href="#"
@@ -136,4 +187,8 @@ export default function Home() {
             <Footer />
         </>
     )
+
 }
+
+}
+

@@ -7,21 +7,17 @@ import 'swiper/css/effect-fade'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
-import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
+import { Autoplay, Pagination, Navigation, EffectFade, Zoom } from 'swiper'
 
 import { ButtonLink } from '@/components/Button'
 import { Container } from '@/components/Container'
-import img1 from '@/images/heroimages/img1.png'
-import img2 from '@/images/heroimages/img1.png'
+import img1 from '@/images/home/p1.png'
+import img2 from '@/images/home/p2.png'
+import img4 from '@/images/home/p4.png'
+import img3 from '@/images/home/p3.png'
 
-const images = [
-  {
-    link: img1,
-  },
-  {
-    link: img2,
-  },
-]
+const images = [img1, img2, img3, img4]
+
 const routs = [
   {
     name: 'Creativity',
@@ -59,6 +55,23 @@ const routs = [
     name: 'Sensor Council',
     link: '/sensor_council',
   },
+  {
+    name: 'WIE',
+    link: '/wie',
+  },
+  {
+    name: 'MTTS',
+    link: '/mtts'
+
+  },
+  {
+    name: 'PES',
+    link: '/pes',
+  },
+  {
+    name: 'SPS',
+    link:'/sps',
+  }
 ]
 
 export function Hero() {
@@ -78,6 +91,7 @@ export function Hero() {
         loop={true}
         autoHeight={true}
         centeredSlides={true}
+        style={{objectFit:"cover", zoom:0.57, width:1920, height:1080}}
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
@@ -93,12 +107,9 @@ export function Hero() {
           <SwiperSlide key={index}>
             <Image
               className="lg:h-128 h-96 w-full object-fill"
-              src={image.link}
+              src={image}
               alt={index}
-              width={1745}
-              height={636}
-              objectFit="cover"
-              border-radius="10px"
+              style={{objectFit:"cover", zoom:"0.4 !important", width:1080, height:"auto"}}
             />
           </SwiperSlide>
         ))}

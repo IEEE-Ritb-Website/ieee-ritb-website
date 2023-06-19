@@ -5,6 +5,24 @@ import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import {Member} from '@/components/Member'
 
+import img2 from '@/images/RoboRIT/Picture2.jpg'
+import img7 from '@/images/RoboRIT/Picture7.jpg'
+import img4 from '@/images/RoboRIT/Picture4.jpg'
+import img5 from '@/images/RoboRIT/Picture5.jpg'
+import img8 from '@/images/RoboRIT/Picture8.jpg'
+import img9 from '@/images/RoboRIT/Picture9.jpg'
+import img11 from '@/images/RoboRIT/Picture11.jpg'
+import img12 from '@/images/RoboRIT/Picture12.jpg'
+import img15 from '@/images/RoboRIT/Picture15.jpg'
+import img17 from '@/images/RoboRIT/Picture17.jpg'
+import img19 from '@/images/RoboRIT/Picture19.jpg'
+
+import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
+import Image from 'next/image'
+import { Swiper, SwiperSlide } from 'swiper/react'
+
+const images = [img2,img4,img5,img7, img8, img9, img11, img12, img15, img17, img19]
+
 export default function Home() {
   return (
     <>
@@ -23,6 +41,37 @@ export default function Home() {
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 RoboRIT
               </h1>
+              <Swiper
+                spaceBetween={30}
+                effect={'fade'}
+                loop={true}
+                autoHeight={true}
+                centeredSlides={true}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
+                pagination={{
+                  clickable: true,
+                }}
+                navigation={true}
+                modules={[Autoplay, Pagination, Navigation, EffectFade]}
+                className="mySwiper"
+              >
+                {images.map((image, index) => (
+                  <SwiperSlide key={index}>
+                    <Image
+                      className="lg:h-128 h-96 w-full object-fill"
+                      src={image}
+                      alt={index}
+                      width={1795}
+                      height={850}
+                      objectFit="cover"
+                      border-radius="10px"
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 The IEEE RoBoRIT is a professional society under the umbrella of
                 the Ramaiah Institue Of Technology. It focuses on promoting the

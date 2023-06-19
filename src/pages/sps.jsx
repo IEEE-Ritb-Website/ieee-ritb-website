@@ -3,7 +3,21 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+
 import {Member} from '@/components/Member'
+
+
+import img3 from '@/images/SPS/Picture3.png'
+import img4 from '@/images/SPS/Picture4.png'
+import img5 from '@/images/SPS/Picture5.png'
+import img6 from '@/images/SPS/Picture6.png'
+import img7 from '@/images/SPS/Picture7.png'
+import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper'
+import Image from 'next/image'
+import { Swiper, SwiperSlide } from 'swiper/react'
+
+const images = [img3,img4,img5,img6]
+
 
 export default function Home() {
     return (
@@ -23,6 +37,39 @@ export default function Home() {
                             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                                 IEEE SPS CHAPTER
                             </h1>
+
+                            <Swiper
+                spaceBetween={30}
+                effect={'fade'}
+                loop={true}
+                autoHeight={true}
+                centeredSlides={true}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
+                pagination={{
+                  clickable: true,
+                }}
+                navigation={true}
+                modules={[Autoplay, Pagination, Navigation, EffectFade]}
+                className="mySwiper"
+              >
+                {images.map((image, index) => (
+                  <SwiperSlide key={index}>
+                    <Image
+                      className="lg:h-128 h-96 w-full object-fill"
+                      src={image}
+                      alt={index}
+                      width={1745}
+                      height={800}
+                      objectFit="cover"
+                      border-radius="10px"
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+
                             <div>
                                 <h1 className="mt-10 text-justify text-2xl tracking-tight text-gray-900">
                                     Signal processing is the enabling technology for the generation, transformation, extraction, and interpretation of information. It comprises the theory, algorithms with associated architectures and implementations, and applications related to processing information contained in many different formats broadly designated as signals. Signal processing uses mathematical, statistical, computational, heuristic, and/or linguistic representations, formalisms, modeling techniques and algorithms for generating, transforming, transmitting, and learning from signals.
@@ -31,6 +78,7 @@ export default function Home() {
 
                                 </h1>
                             </div>
+
 
 
                             <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
@@ -124,6 +172,7 @@ export default function Home() {
     </Member>
     </div></p>
 
+
                             <div className="mt-10 flex items-center justify-center gap-x-6">
                                 <a
                                     href="#"
@@ -151,4 +200,8 @@ export default function Home() {
             <Footer />
         </>
     )
+
 }
+
+}
+
