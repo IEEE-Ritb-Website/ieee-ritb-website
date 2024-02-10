@@ -162,7 +162,7 @@ export default function Home() {
                 <Member name="Bhavesh"
                   designation="Member"
                   link="https://www.linkedin.com/in/bhavesh-jadhav-ab8b71254"
-                  image="https://drive.google.com/uc?id=1ki-cVIiV-97HugjiL1aGvUKIjjf0pPSZ&export=download">
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/BhaveshAJ_1MS21EE018.jpg?raw=true">
                 </Member>
 
                 <Member name="Shaik Raiyan"
@@ -171,22 +171,22 @@ export default function Home() {
                   image="https://drive.google.com/uc?id=1r4qsR1bPIPqp4-Q-oAIY4LqO5JV24JsH&export=view">
                 </Member>
 
-                <Member name="Setu Rama K R"
+                <Member name="Sethu Rama K R"
                   designation="Member"
                   link="https://www.linkedin.com/in/sathvik-sethu-b492b9279"
-                  image="https://drive.google.com/uc?id=1r3WSW7QQVSdPqQuIul2PCZvtpuzVKlbf&export=view">
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Sethu%20Rama%20K%20R%20_1MS21EE052.jpg?raw=true">
                 </Member>
 
                 <Member name="Divya Naidu K"
                   designation="Member"
                   link="https://www.linkedin.com/in/divya-naidu-11489b244"
-                  image="https://drive.google.com/uc?id=1DcBvq0XtOql7euT6JONzz9btTJcdG33Z&export=view">
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Divya%20Naidu%20(1MS22EE015)_.jpg?raw=true">
                 </Member>
 
                 <Member name="Bhagyashri Rasal"
                   designation="Member"
                   link="https://www.linkedin.com/in/bhagyashri-rasal-a7622525b"
-                  image="https://drive.google.com/uc?id=1-5pcYWQRLsTxLRO7XHurXMWn293b_ZRf&export=view">
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/BHAGYASHRI%20RASAL(1MS22EE010).jpg?raw=true">
                 </Member>
 
                 <Member name="Sanjana Raj Nataraj"
@@ -199,13 +199,48 @@ export default function Home() {
                 <Member name="M Subiksha"
                   designation="Member"
                   link="https://www.linkedin.com/in/m-subiksha-377305279"
-                  image="https://drive.google.com/uc?id=1n0frbBEDoM6QewkY8Iiu3TJ3GCqHrjyj&export=view">
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/M%20SUBIKSHA%201MS22EE027_.jpg?raw=true">
                 </Member>
 
                 <Member name="Manjunath"
                   designation="Member"
                   link="https://www.linkedin.com/in/manjunath-gandigudi-6717a41b5"
-                  image="https://i.ibb.co/m8zY1VP/unknown.jpg">
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Manjunath_1MS22EE029.jpg?raw=true">
+                </Member>
+                <Member name="Ashlesh D M"
+                  designation="Member"
+                  link="https://www.linkedin.com/"
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Ashlesh%20D%20M.jpg?raw=true">
+                </Member>
+                <Member name="Athul Biju C"
+                  designation="Member"
+                  link="https://www.linkedin.com/"
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Athul%20Biju%20C_1MS23EE009-T.JPG?raw=true">
+                </Member>
+                <Member name="Juel Pramanik"
+                  designation="Member"
+                  link="https://www.linkedin.com/"
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Juel%20Pramanik_1MS22EE022.jpg?raw=true">
+                </Member>
+                <Member name="Sankalp Kumar Singh"
+                  designation="Member"
+                  link="https://www.linkedin.com/"
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Sankalp%20Kumar%20Singh(1MS22EE045).jpg?raw=true">
+                </Member>
+                <Member name="Srajan"
+                  designation="Member"
+                  link="https://www.linkedin.com/"
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Srajan_1MS22EE056.jpg?raw=true">
+                </Member>
+                <Member name="Yathish"
+                  designation="Member"
+                  link="https://www.linkedin.com/"
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/Yathish.PNG?raw=true">
+                </Member>
+                <Member name="venu gopal"
+                  designation="Member"
+                  link="https://www.linkedin.com/"
+                  image="https://github.com/sanjay212003/ieee-members/blob/main/PES/venu%20gopal%20_%201MS23EI016-T.pdf?raw=true">
                 </Member>
               </div>
 
