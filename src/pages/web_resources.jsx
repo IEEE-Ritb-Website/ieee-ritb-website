@@ -104,10 +104,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>RoboRIT | IEEE Ramaiah Institute of Technology</title>
+        <title>Web Resources | IEEE RIT</title>
         <meta
           name="description"
-          content="RoboRIT - IEEE-RIT Student Branch | IEEE Ramaiah Institute of Technology"
+          content="Web Resources - IEEE-RIT Student Branch | IEEE Ramaiah Institute of Technology"
         />
       </Head>
       <Header />
