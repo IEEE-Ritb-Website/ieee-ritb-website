@@ -50,15 +50,15 @@ export function ButtonLink({
   ...props
 }) {
   return (
-    <Link href={href}>
-      <a
-        className={clsx(
-          baseStyles[variant],
-          variantStyles[variant][color],
-          className
-        )}
-        {...props}
-      />
-    </Link>
-  )
+    (<Link
+      href={href}
+      className={clsx(
+        baseStyles[variant],
+        variantStyles[variant][color],
+        className
+      )}
+      {...props}>
+
+    </Link>)
+  );
 }

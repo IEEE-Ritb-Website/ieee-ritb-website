@@ -23,24 +23,30 @@ export function Footer() {
               <h4 class="text-dark mb-5 text-lg font-semibold">Quick Links</h4>
               <ul className="block justify-center">
                 <li>
-                  <Link href="/faculty">
-                    <a className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
+                  <Link
+                    href="/faculty"
+                    className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
+                    
                       Faculty
-                    </a>
+                    
                   </Link>
                 </li>
                 <li>
-                  <Link href="/gallery">
-                    <a className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
+                  <Link
+                    href="/gallery"
+                    className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
+                    
                       Gallery
-                    </a>
+                    
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contactus">
-                    <a className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
+                  <Link
+                    href="/contactus"
+                    className="rounded-lg px-2 py-1 leading-loose text-white hover:bg-slate-100 hover:text-slate-900">
+                    
                       Contact Us
-                    </a>
+                    
                   </Link>
                 </li>
               </ul>
@@ -217,5 +223,5 @@ export function Footer() {
         </span>
       </div>
     </footer>
-  )
+  );
 }

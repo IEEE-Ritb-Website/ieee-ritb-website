@@ -104,10 +104,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>RoboRIT | IEEE Ramaiah Institute of Technology</title>
+        <title>Web Resources | IEEE RIT</title>
         <meta
           name="description"
-          content="RoboRIT - IEEE-RIT Student Branch | IEEE Ramaiah Institute of Technology"
+          content="Web Resources - IEEE-RIT Student Branch | IEEE Ramaiah Institute of Technology"
         />
       </Head>
       <Header />
@@ -121,7 +121,7 @@ export default function Home() {
 
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 We are the developers behind the IEEE RIT website. We are a team
-                of 5 members who are working on the website to make it more user
+                of 9 members who are working on the website to make it more user
                 friendly and interactive.
               </p>
 

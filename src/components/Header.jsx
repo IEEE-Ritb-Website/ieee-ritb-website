@@ -62,24 +62,24 @@ function MobileNavigation() {
                 className="absolute inset-x-0 top-full mt-4 origin-top space-y-4 rounded-2xl bg-white p-6 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
               >
                 <li>
-                  <Link href="/gallery">
-                    <a className="block w-full" onClick={() => close()}>
+                  <Link href="/gallery" className="block w-full" onClick={() => close()}>
+                    
                       Gallery
-                    </a>
+                    
                   </Link>
                 </li>
                 <li>
-                  <Link href="/faculty">
-                    <a className="block w-full" onClick={() => close()}>
+                  <Link href="/faculty" className="block w-full" onClick={() => close()}>
+                    
                       Faculty
-                    </a>
+                    
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contactus">
-                    <a className="block w-full" onClick={() => close()}>
+                  <Link href="/contactus" className="block w-full" onClick={() => close()}>
+                    
                       Contact Us
-                    </a>
+                    
                   </Link>
                 </li>
               </Popover.Panel>
@@ -88,7 +88,7 @@ function MobileNavigation() {
         </>
       )}
     </Popover>
-  )
+  );
 }
 
 export function Header() {
@@ -100,37 +100,45 @@ export function Header() {
             <ul className="flex items-center">
               <li>
                 <Link href="/">
-                  <a>
-                    <Logo className="h-10 w-auto" />
-                  </a>
+
+                  <Logo className="h-10 w-auto" />
+
                 </Link>
               </li>
               <li className="ml-12 mt-4 hidden md:block">
-                <Link href="/">
-                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                    <b>Home</b>
-                  </a>
+                <Link
+                  href="/"
+                  className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+
+                  <b>Home</b>
+
                 </Link>
               </li>
               <li className="ml-6 mt-4 hidden md:block">
-                <Link href="/faculty">
-                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                <Link
+                  href="/faculty"
+                  className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                  
                     Faculty
-                  </a>
+                  
                 </Link>
               </li>
               <li className="ml-6 mt-4 hidden md:block">
-                <Link href="/gallery">
-                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                <Link
+                  href="/gallery"
+                  className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                  
                     Gallery
-                  </a>
+                  
                 </Link>
               </li>
               <li className="ml-6 mt-4 hidden md:block">
-                <Link href="/contactus">
-                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                <Link
+                  href="/contactus"
+                  className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                  
                     Contact Us
-                  </a>
+                  
                 </Link>
               </li>
               <li className="ml-auto md:ml-8 lg:hidden">
@@ -149,5 +157,5 @@ export function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }
