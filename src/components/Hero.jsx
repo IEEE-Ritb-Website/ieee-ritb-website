@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { FaUserGraduate, FaCalendarAlt, FaChalkboardTeacher } from "react-icons/fa";
 
 import 'swiper/css'
 import 'swiper/css/effect-fade'
@@ -84,22 +85,6 @@ const routs = [
     link: '/web_resources',
   },
 ]
-const members = [
-  {
-    name: 'SUHAS KATRAHALLI',
-    designation: 'Chairperson',
-    link: 'https://www.linkedin.com/in/suhaskatrahalli',
-    image:
-      'https://drive.google.com/uc?id=1bJ38lrFlwMrD6Byz16Ed0R333CDFpHVW&export=view',
-  },
-  {
-    name: 'SRINIVAS C',
-    designation: 'SB Secretary',
-    link: 'https://www.linkedin.com/in/srinivas-c-678105249/',
-    image:
-      'https://github.com/myselfshravan/myselfshravan.github.io/assets/94772842/66635445-e53a-4737-ab83-d0374bfbfb1c',
-  },
-]
 
 export function Hero() {
   return (
@@ -146,15 +131,67 @@ export function Hero() {
         </Swiper>
       </div>
       <Container className="pb-16 pt-5 text-justify lg:pt-8">
-        <p class="text-md mx-auto max-w-4xl rounded-xl bg-blue-100 p-3 tracking-tight text-slate-800 lg:text-xl">
-          <b>IEEE-RIT Student Branch</b> was inaugurated in RIT in November
-          2003. The branch endeavors to enrich the students of RIT with the
-          latest developments in various fields of technology and research and
-          ensure that their competency levels meet all the required standards in
-          today's industry and participation in a kaleidoscope of technical
-          events throughout the year, implicitly emphasizing on extra-curricular
-          activities in a student's life.
-        </p>
+        <div className="mx-auto max-w-4xl mt-10">
+          <div className="mx-auto max-w-4xl mt-10 p-4 bg-blue-100 rounded-xl transition duration-300 ease-in-out transform hover:shadow-lg hover:bg-blue-200">
+            <h1 className="text-md text-center font-semibold mb-4">
+              What is IEEE RIT-B?
+            </h1>
+            <p className="text-md mx-auto max-w-4xl rounded-xl bg-blue-100 p-4 tracking-tight text-slate-800 lg:text-xl transition duration-300 ease-in-out transform hover:shadow-lg hover:bg-blue-200">
+              IEEE RIT-B is the IEEE student branch at Ramaiah Institute of Technology. It is one of the <b>largest and most active</b>  student branches in the Bangalore section. IEEE RIT-B was inaugurated in <b>2003</b> and has strived to enrich the students of RIT with the latest developments in various fields of technology and research, advancing technology for humanity. <br /><br />
+              Over the two decades, we have garnered many accolades, including <b>“The Best Large Student Chapter,”</b> <b>“Best Student Volunteer,”</b> and many others. 
+              We conduct a multitude of competitions, workshops, seminars, and other events, including our flagship event <b>‘Aavishkaar’</b> and coordinating the recent RIT TechFest 2023.
+            </p>
+          </div>
+
+            <div className="mx-auto max-w-4xl mt-10 p-4 bg-blue-100 rounded-xl transition duration-300 ease-in-out transform hover:shadow-lg hover:bg-blue-200">
+              <h1 className="text-md text-center font-semibold mb-4">Why IEEE RIT-B?</h1>
+              <ul className="list-disc list-inside">
+                <li><b>Stay Ahead of the Curve</b>: Gain in-depth knowledge of the latest technological trends and advancements.</li>
+                <li><b>Develop Practical Skills</b>: Participate in workshops, design competitions, and hackathons to gain hands-on experience.</li>
+                <li><b>Network with Industry Experts</b>: Build valuable connections with professionals and explore potential career paths.</li>
+                <li><b>Boost Your Portfolio</b>: Contribute to research projects and participate in events, enriching your academic profile.</li>
+                <li><b>Join a Supportive Community</b>: Connect with like-minded peers and mentors, fostering personal and professional growth.</li>
+              </ul>
+          </div>
+
+          <div className="flex justify-center mt-10">
+            {/* Stats */}
+            <div className="cas-stats p-4 bg-blue-100 rounded-xl max-w-3xl w-full transition duration-300 ease-in-out transform hover:shadow-lg hover:bg-blue-200">
+              <h2 className="text-lg font-semibold mb-4">Stats</h2>
+              <div className="cas-counters flex">
+
+                {/* No of student members*/}
+                <div className="cas-counter mr-6">
+                  <FaUserGraduate className="cas-icon" />
+                  <span className="cas-number text-xl">Student_Members</span>
+                  <ButtonLink href="./" className="cas-button bg-sky-900 text-gray-50 mt-2">
+                    228
+                  </ButtonLink>
+                </div>
+
+                {/* No of faculty members */}
+                <div className="cas-counter mr-6">
+                  <FaChalkboardTeacher className="cas-icon" />
+                  <span className="cas-number text-xl mb-2">Faculty_Members</span>
+                  <ButtonLink href="./" className="cas-button bg-sky-900 text-gray-50 mt-2">
+                    7
+                  </ButtonLink>
+                </div>
+
+                {/* Events conducted last year */}
+                <div className="cas-counter">
+                  <FaCalendarAlt className="cas-icon" />
+                  <span className="cas-number text-xl mb-2">Events_Conducted(Last_Year)</span>
+                  <ButtonLink href="./" className="cas-button bg-sky-900 text-gray-50 mt-2">
+                    65
+                  </ButtonLink>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
         <div className="flex flex-wrap justify-center">
           <ButtonLink
             href="https://site.ieee.org/sb-ritb/about-ieee/ieee-ramaiah/"
