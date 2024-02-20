@@ -121,7 +121,7 @@ export default function Home() {
 
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 We are the developers behind the IEEE RIT website. We are a team
-                of 5 members who are working on the website to make it more user
+                of 9 members who are working on the website to make it more user
                 friendly and interactive.
               </p>
 
