@@ -9,6 +9,8 @@ const nextConfig = {
       'image.ibb.co',
       'i.ibb.co',
       'github.com',
+      'raw.githubusercontent.com',
+      'drive.google.com',
     ],
   },
   webpack: (config) => {

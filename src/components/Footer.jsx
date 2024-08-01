@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link'
 
 export function Footer() {
@@ -8,7 +9,7 @@ export function Footer() {
           <div className="w-full items-center px-3">
             <div className="mb-3 flex w-full lg:justify-center">
               <a href="/" className="inline-block rounded-md bg-white p-2">
-                <img
+                <Image
                   src="https://avatars.githubusercontent.com/u/133042598?s=200&v=4"
                   alt="IEEE Logo"
                   className="max-w-full"

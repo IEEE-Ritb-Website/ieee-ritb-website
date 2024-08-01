@@ -290,7 +290,7 @@ export default function Home() {
                   name="Gaurav C Belawadi"
                   designation="Execom"
                   link="https://www.linkedin.com/in/gaurav-c-belawadi-659304224"
-                  image="https://drive.google.com/thumbnail?id=1Msl4GbWc3mnHybAdigvW_CdI4MgBlzzW"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Gaurav%20Belawadi.png"
                 />
                 <Member
                   name="Vaibhav Gowda G P"
@@ -308,7 +308,7 @@ export default function Home() {
                   name="Tanisha P Hegde"
                   designation="Execom"
                   link="https://www.linkedin.com/in/tanisha-p-hegde-510036230"
-                  image="https://drive.google.com/thumbnail?id=1G0PhVoGBHuuVn_dKLHH6wnMhAfbRlXKY"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Tanish%20P%20Hegde.png"
                 />
                 <Member
                   name="Naveen N G"
@@ -326,7 +326,7 @@ export default function Home() {
                   name="Mohammed Aamir Ahmed"
                   designation="Execom"
                   link="https://www.linkedin.com/in/m-d-aamir-ahmed-741765248"
-                  image="https://drive.google.com/thumbnail?id=1cnoNiVd2z8SW17VCQzIm5DyMR6wCJjfh"
+                  image="https://github.com/aarthipv/profileimages/blob/main/comsoc/Mohammed%20aamir.png"
                 />
                 <Member
                   name="Priyanshu Trivedi"

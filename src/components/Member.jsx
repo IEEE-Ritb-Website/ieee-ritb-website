@@ -1,12 +1,23 @@
+"use client"
+import { Skeleton } from '@mui/material';
+import Image from 'next/image';
 import Link from 'next/link'
+import { useState } from 'react';
 
 export function Member(props) {
+  const [imgLoaded, setImgLoaded] = useState(false);
   return (
-    <div className="relative transform overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-2xl lg:hover:-translate-y-2">
-      <img
-        className="h-72 w-full object-cover object-center md:h-48 lg:h-72"
+    <div className={`
+    relative transform overflow-hidden rounded-lg shadow-lg transition duration-300 hover:shadow-2xl lg:hover:-translate-y-2
+    ${!imgLoaded && "bg-gray-300 rounded animate-pulse"}
+    `}>
+      <Image
+        className={`h-72 ${!imgLoaded ? "invisible" : "visible"} w-full object-cover object-center md:h-48 lg:h-72`}
         src={props.image}
         alt={props.name + ' image'}
+        height={130}
+        width={130}
+        onLoad={() => setImgLoaded(true)}
       />
       <div className="absolute inset-0 flex flex-col justify-center bg-black bg-opacity-75 px-5 py-4 text-center opacity-0 transition-opacity duration-300 hover:opacity-100">
         <p className="mb-1 text-lg font-bold text-gray-100">{props.name}</p>

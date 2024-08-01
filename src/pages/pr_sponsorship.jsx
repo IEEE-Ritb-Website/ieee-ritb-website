@@ -60,11 +60,7 @@ export default function Home() {
     name="Shireen Dash"
     designation="Public Relations Head"
     link="https://www.linkedin.com/in/shireen-dash-300b96278/"
-<<<<<<< HEAD
-    image="https://github.com/aarthipv/profileimages/blob/main/Shireen%20Dash_1ms21ei052.jpeg?raw=true">
-=======
     image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/PR%20AND%20SP%20/Shireen%20Dash_1ms21ei052.jpeg?raw=true">
->>>>>>> 2cb918c06b886949862c4f58aed034994f1ce144
   </Member>
 
   {/* Public Relations Co-Head */}
@@ -122,7 +118,7 @@ export default function Home() {
   <Member
     name="Megha Paul"
     link="http://paul-www.linkedin.com/in/megha-paul-2757b921a"
-    image="https://drive.google.com/thumbnail?id=1U1R2AJioMHbzfYSotFAOnEpU3BfK_Hz1">
+    image="https://github.com/aarthipv/profileimages/blob/main/Megha%20Paul.png">
 
   </Member>
 
@@ -136,11 +132,7 @@ export default function Home() {
   <Member
     name="Abhiraj Paralkar"
     link="https://www.linkedin.com/in/abhiraj-paralkar-64613a2a6/"
-<<<<<<< HEAD
     image="https://github.com/aarthipv/profileimages/blob/main/Abhiraj%20P%201MS22CH004.jpg">
-=======
-    image="">//Not uploaded
->>>>>>> 2cb918c06b886949862c4f58aed034994f1ce144
 
   </Member>
 

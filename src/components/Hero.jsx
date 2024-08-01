@@ -43,62 +43,92 @@ const routs = [
   {
     name: 'Creativity',
     link: '/creativity',
+    description: 'IEEE RITB Creativity Team, a part of IEEE-RIT, enhances main events with impeccable creativity, elevating their impact while optimising resources. We deliver unmistakably high-quality creative work, ensuring impressive results and organisational efficiency.',
+    image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/Creativity.jpg?raw=true',
   },
   {
     name: 'APS',
     link: '/aps',
+    description: 'Welcome to IEEE APS Student Chapter at RIT, where passionate engineering students drive advancements in antennas and propagation. Engage in workshops, research, and seminars to foster learning, collaboration, and innovation in electromagnetic waves, wireless communications, and beyond. Join us to expand knowledge and connect with peers.',
+    image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/APS.jpg?raw=true',
   },
   {
     name: 'Computer Society',
     link: '/computersociety',
+    description: 'Join the vibrant IEEE Computer Society at RIT, a community of tech enthusiasts and professionals. Explore, learn, and innovate in computer science through engaging events, workshops, and networking opportunities. Shape the future of technology with us!',
+    image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/CS.jpg?raw=true',
   },
   {
     name: 'PR Sponsorship',
     link: '/pr_sponsorship',
+    description: 'The Public Relations and Sponsorship chapter of IEEE at RITB excels in promoting IEEE events and securing sponsorships. With a focus on strategic partnerships and engaging campaigns, we ensure maximum participation and enhance event quality for an enriching experience.',
+    image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/Sponsorship.jpg?raw=true',
   },
   {
     name: 'COMSOC',
     link: '/comsoc',
+    description: 'IEEE ComSoc RITB at Ramaiah Institute of Technology drives technological innovation in communications and networking. We foster global information exchange, professional advancement, and collaboration among academia, industry, and institutions to advance humanity through research, education, and idea incubation.',
+    image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/Comsoc.jpg?raw=true',
   },
   {
     name: 'Documentation',
     link: '/documentation',
+    description: 'The IEEE RITB Documentation Team diligently records club events, providing comprehensive reports with event highlights, winner details, and captivating photographs. Ensuring accurate documentation, we capture the essence of each event with professionalism and precision. ',
+    image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/Documentation.jpg?raw=true',
   },
   {
     name: 'RoboRIT',
     link: '/roborit',
+    description: 'IEEE RoboRIT, nestled within Ramaiah Institute Of Technology, champions robotics theory and practice. Through events and collaborations, we propel knowledge exchange and offer avenues for learning, collaboration, leadership, and recognition in robotics and automation.',
+    image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/RoboRIT.jpg?raw=true',
   },
   {
     name: 'XTREME',
     link: '/xtreme',
+    description: "Embark on your programming journey with IEEE XTREME at Ramaiah Institute Of Technology. Explore coding competitions, hackathons, and technical webinars, gaining educational enrichment, collaboration opportunities, professional growth, and recognition in competitive programming. Join us and elevate your programming skills today. ",
+    image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/XTreme.jpg?raw=true',
   },
   {
     name: 'Digital Design',
     link: '/digitaldesign',
+    description: 'IEEE RITB Digital Design Team is a creative powerhouse, crafting captivating visuals for events and projects. With a blend of talent and tech-savvy skills, we produce impactful designs that captivate audiences and communicate messages effectively.',
+    image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/PR.jpg?raw=true',
   },
   {
     name: 'Sensor Council',
     link: '/sensor_council',
+    description: 'Explore the dynamic IEEE Sensor Student Chapter at RIT and immerse yourself in the exciting world of sensor technologies. Through engaging workshops, insightful guest lectures, and hands-on projects, discover the boundless potential of sensing technology. Elevate your engineering journey with us.',
+    image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/SC.jpg?raw=true',
   },
   {
     name: 'WIE',
     link: '/wie',
+    description: "IEEE RIT-B Women in Engineering (IEEE RIT-B WIE), founded in 2016, empowers women in tech through dynamic events, fostering inclusivity, and promoting professional growth. We strive to overcome challenges, inspire STEM careers, and create a supportive environment for women's success.",
+    image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/WIE.jpg?raw=true',
   },
   {
     name: 'MTTS',
     link: '/mtts',
+    description: 'The IEEE Microwave Theory and Technology Society at RITB fosters professional growth and technological advancement in microwave technology. Through conferences, workshops, publications, and networking opportunities, we empower members to share expertise and contribute to the broader technical community, driven by volunteer excellence.',
+    image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/MTTS.jpg?raw=true',
   },
   {
     name: 'PES',
     link: '/pes',
+    description: "The IEEE Power and Energy Society (PES) is a global hub for electrical engineers in the power and energy industry, offering educational resources, networking, and professional development. With 800+ chapters worldwide, PES connects members for knowledge sharing and collaboration, advancing society's electric power expertise.",
+    image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/PES.jpg?raw=true',
   },
   {
     name: 'SPS',
     link: '/sps',
+    description: "The Signal Processing Society (SPS) at RIT is a dynamic hub for knowledge sharing, networking, and hands-on projects. Through workshops, guest speakers, and industry visits, we empower engineers with the latest advancements in signal processing, fostering collaboration and professional growth.",
+    image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/SPS.jpg?raw=true',
   },
   {
     name: 'Web Resources',
     link: '/web_resources',
+    description: 'IEEE Web Resources Team is behind all the technical and also the website maintenance. We have a sharp minded people who update all the changes in the website and make the other chapters reach to all the people.',
+    image: 'https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/Chapter%20Logos/WEB.jpg?raw=true',
   },
 ]
 
@@ -229,7 +259,7 @@ export function Hero() {
 
 
 
-      <div className="mx-auto max-w-4xl mt-10 p-4 rounded-xl transition duration-300 ease-in-out transform hover:shadow-lg">
+      <div className="mx-auto max-w-4xl mt-10 p-4 rounded-xl transition duration-300 ease-in-out transform :shadow-lg">
           <h1 className="text-md lg:text-3xl text-center font-bold mb-5">
             Why <span className="text-lg lg:text-3xl font-bold text-blue-500">IEEE RIT-B?</span>
           </h1>
@@ -297,29 +327,42 @@ export function Hero() {
             All the <span className="text-lg lg:text-2xl font-bold text-blue-500">societies and councils</span> under IEEE-RIT
           </h1>
           <ul
-            role="list"
-            className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-6 text-md sm:mt-10 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3 lg:items-center"
-          >
-            {routs.map((item, index) => (
-              <li
-                key={index}
-                className="rounded-xl shadow-lg ring ring-indigo-50 transition hover:shadow-sm"
-              >
-                <div className="rounded-xl bg-blue-100 p-5 sm:p-6">
-                  <h3 className="text-gray-9 text-center text-base font-semibold uppercase">
-                    {item.name}
-                  </h3>
-                  <div className="flex justify-center">
-                    <a href={item.link}>
-                      <button className="mt-2 rounded-lg border bg-transparent px-4 py-2 font-semibold text-blue-700 shadow-lg shadow-blue-900/10 hover:border-transparent hover:bg-blue-900 hover:text-white">
-                        View
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </li>
-            ))}
-          </ul>
+  role="list"
+  className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-14 text-md sm:mt-10 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3 lg:items-center"
+>
+{routs.map((item, index) => (
+  <li
+    key={index}
+    className="relative rounded-xl shadow-lg ring ring-red-50 transition hover:shadow-xl hover:ring-blue-200 hover:scale-110 overflow-hidden"
+  >
+    <div className="bg-blue-100 p-5 sm:p-6">
+      <h3 className="text-gray-9 text-center text-base font-semibold uppercase">
+        {item.name}
+      </h3>
+      {/* Image */}
+      <Image
+        src={item.image}
+        alt={item.name}
+        height={100}
+        width={100}
+        className="w-full h-full object-cover rounded-xl mt-4"
+      />
+      {/* Description and View Button */}
+      <div className="absolute inset-0 bg-black bg-opacity-70 p-2 rounded-xl transition-all duration-300 opacity-0 hover:opacity-100 flex flex-col items-center justify-center">
+        <p className="text-xs text-white">{item.description}</p>
+        <a href={item.link} className="mt-2">
+          <button className="rounded-lg border border-blue-700 bg-transparent px-4 py-2 font-semibold text-blue-700 shadow-lg shadow-blue-900/10 hover:bg-blue-900 hover:text-white hover:border-transparent transform transition duration-300 hover:scale-105">
+            View
+          </button>
+        </a>
+      </div>
+    </div>
+  </li>
+))}
+
+
+</ul>
+
 
           <h1 className="mt-10 text-center text-xl lg:text-2xl font-bold tracking-tight text-gray-900">
             <span className="text-lg lg:text-2xl font-bold text-blue-500">Office Bearers</span> of IEEE-RIT
