@@ -103,6 +103,34 @@ export default function Home() {
                 ></Member>
 
                 <Member
+                  name="Shashwat Agarwal"
+                  designation="Treasurer"
+                  link="https://www.linkedin.com/in/archisman-hazra-197767298/ "
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Archisman%20Hazra_1MS23EI016.jpg?raw=true"
+                ></Member>
+
+                <Member
+                  name="Arpitha M Marali"
+                  designation="Vice-chair"
+                  link="https://www.linkedin.com/in/"
+                  image="https://github.com/"
+                ></Member>
+                
+                <Member
+                  name="Nisarga M"
+                  designation="Vice-Secretary"
+                  link=" "
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/NISARGA%20M_1MS22ET067.jpg?raw=true"
+                ></Member>
+
+                <Member
+                  name="Anshu Prakash"
+                  designation="Vice-Treasurer"
+                  link=" "
+                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Anshu%20Prakash%20Hindoyar_1MS22ET003.jpg?raw=true"
+                ></Member>
+
+                <Member
                   name="Chinmay Jindal"
                   designation="Member"
                   link="https://www.linkedin.com/in/chinmay-jindal-49a76024a/"
@@ -117,7 +145,7 @@ export default function Home() {
                 ></Member>
 
                 <Member
-                  name="Suhaas B S"
+                  name="Suhas B S"
                   designation="Member"
                   link="https://www.linkedin.com/in/suhaas-b-s-7817262a7/"
                   image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Suhaas%20B%20S_1MS21ET054.JPG?raw=true"
@@ -165,42 +193,29 @@ export default function Home() {
                   image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Archisman%20Hazra_1MS23EI016.jpg?raw=true"
                 ></Member>
 
-<Member
-                  name="Nisarga M"
-                  designation="Member"
-                  link=" "
-                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/NISARGA%20M_1MS22ET067.jpg?raw=true"
-                ></Member>
 
-<Member
-                  name="Sree Gowri"
+                <Member
+                  name="Sree Gowri C S"
                   designation="Member"
                   link=" "
                   image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Sree%20Gowri%20C%20S%20_1MS22ET050.jpg?raw=true"
                 ></Member>
 
-<Member
-                  name="P Janani"
+                <Member
+                  name="P Janani Karthika"
                   designation="Member"
                   link=" "
                   image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/P_Janani_karthika_1MS22ET031.jpg?raw=true"
                 ></Member>
 
-<Member
-                  name="Mohammed rayan"
+                <Member
+                  name="Mohammed Rayan"
                   designation="Member"
                   link=" "
                   image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Mohammed%20rayan%20(1MS23EI032).jpg?raw=true"
                 ></Member>
 
-<Member
-                  name="Anshu Prakash"
-                  designation="Member"
-                  link=" "
-                  image="https://github.com/Abhishekvk04/Ieee_member_profile/blob/main/MEMBERS%20PICTURES%20/Sensor%20Council/Anshu%20Prakash%20Hindoyar_1MS22ET003.jpg?raw=true"
-                ></Member>
-
-<Member
+                <Member
                   name="Piyush Kumar"
                   designation="Member"
                   link=" "

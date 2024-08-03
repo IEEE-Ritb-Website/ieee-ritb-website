@@ -19,12 +19,7 @@ const faculty_head = [
     link: 'https://msrit.edu/department/faculty-detail.html?dept=ece&ID=5',
     image: head2,
   },
-  {
-    name: 'Dr. Shobha K R',
-    designation: 'Student Branch Advisor',
-    link: 'https://msrit.edu/department/faculty-detail.html?dept=te&ID=3',
-    image: head3,
-  },
+  
 ]
 
 const faculty_details = [
@@ -37,14 +32,14 @@ const faculty_details = [
   },
   {
     dept: 'CSE',
-    name: 'Dr. Parkavi A',
+    name: 'Dr. Parkavi A.',
     chapter: 'WIE',
     link: 'https://msrit.edu/department/faculty-detail.html?dept=cse&ID=9',
     image: 'https://image.ibb.co/bwVi2F/AParkavi.jpg',
   },
   {
     dept: 'EEE',
-    name: 'Dr. Sridhar. S',
+    name: 'Dr. Sridhar S.',
     chapter: 'PES',
     link: 'https://msrit.edu/department/faculty-detail.html?dept=eee&ID=5',
     image: 'https://i.ibb.co/jTksqZ7/Dr-Sridhar-S.jpg',
@@ -57,16 +52,15 @@ const faculty_details = [
     image: 'https://image.ibb.co/dHXjWk/2017_08_29_13_09_29.jpg',
   },
   {
-    dept: 'ETE',
-    name: 'Dr. Shobha K R',
-    chapter: 'ComSoc',
-    link: 'https://msrit.edu/department/faculty-detail.html?dept=te&ID=3',
-    image:
-      'https://site.ieee.org/sb-ritb/files/2020/07/KRS-Shobha-K.R-IEEE-RIT-B-500x480.jpg',
+    dept: 'ECE',
+    name: 'Dr. S. Imaculate Rosaline',
+    chapter: 'APS',
+    link: 'https://msrit.edu/department/faculty-detail.html?dept=ece&ID=26',
+    image: 'https://i.ibb.co/XJYf8gR/rosynew1.jpg',
   },
   {
     dept: 'CSE',
-    name: 'Dr. Parkavi A',
+    name: 'Dr. Parkavi A.',
     chapter: 'Computer Society',
     link: 'https://msrit.edu/department/faculty-detail.html?dept=cse&ID=9',
     image: 'https://image.ibb.co/bwVi2F/AParkavi.jpg',

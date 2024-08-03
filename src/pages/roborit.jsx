@@ -293,13 +293,6 @@ export default function Home() {
                 ></Member>
 
                 <Member
-                  name="Shaaru U."
-                  designation="Member"
-                  link="https://www.linkedin.com/in/shaaru-u-514976227"
-                  image="https://raw.githubusercontent.com/natashabrito/members2024/main/roborit/Shaaru_U_1MS21EI050.jpg"
-                ></Member>
-
-                <Member
                   name="Hemanth Kumar NVS"
                   designation="Member"
                   link="https://www.linkedin.com/in/hemanth-kumar-394a96249?utm_source=share&utm_campaign=share_via&utm_content="
