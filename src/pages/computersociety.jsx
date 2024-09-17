@@ -287,7 +287,7 @@ export default function Home() {
               <Member
                   name="Nabhanyu B M"
                   designation="Member"
-                  link="https://www.linkedin.com/in/shraddha-prabhu-9b1663230"//not found
+                  link="https://www.linkedin.com/in/nabhanyu-bhatmurge"
                   image="https://github.com/aarthipv/profileimages/blob/main/cs/Nabhanyu%20B%20M_1MS23IS064-T.png?raw=true"
                 ></Member>
                 <Member
